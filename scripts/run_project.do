@@ -183,7 +183,14 @@
 		putpdf text ("The bar chart shows the population-weighted coverage of at least four antenatal care visits (ANC4) and skilled birth attendance (SBA) for countries classified as on-track or off-track for under-five mortality rate (U5MR) reduction, based on 2022 projected births as weights. It illustrates that countries on-track for U5MR reduction consistently achieve higher coverage of at least four antenatal care visits (ANC4) and skilled birth attendance (SBA) compared to off-track countries, signaling stronger maternal and child health systems and better access to essential prenatal and delivery care. This disparity underscores the linkage between effective health interventions and progress toward U5MR goals, with on-track countries likely benefiting from robust healthcare infrastructure, policy prioritization, or resource allocation.")
 		putpdf paragraph
 		putpdf text ("However, several caveats warrant caution in interpreting these results. First, incomplete data due to non-matching countries across ANC4, SBA, births, and U5MR status datasets may introduce selection bias, as only countries with complete data contribute to the weighted averages. Second, the use of 2022 projected births as weights, derived from demographic models, may deviate from actual birth counts due to unforeseen demographic shifts or data inaccuracies. Third, ANC4 and SBA estimates span 2018–2022, with varying years per country, potentially reducing comparability if health system changes occurred over time. Fourth, the binary classification of U5MR status (on-track vs. off-track) oversimplifies progress, as countries near the threshold may differ minimally in health outcomes. These limitations suggest that while the observed trends are indicative, further validation with complete and contemporaneous data is needed to ensure robust conclusions.")
-
+		putpdf paragraph
+		putpdf text ("Positions Applied for")
+		putpdf paragraph
+		putpdf text ("Learning and Skills Data Analyst Consultant – Req. #581598")
+		putpdf paragraph
+		putpdf text ("Household Survey Data Analyst Consultant – Req. #581656")
+		putpdf paragraph
+		putpdf text ("Microdata Harmonization Consultant – Req. #581699") 
 		* Save as PDF
 		putpdf save "output/report.pdf", replace
 	}

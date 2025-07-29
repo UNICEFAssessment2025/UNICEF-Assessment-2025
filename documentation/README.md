@@ -48,13 +48,13 @@ documentation/: Documentation files.
 
 Reproduction Instructions
 
-•	Clone the repository- git clone https://github.com/Username/UNICEF-Assessment-2025.git
+•	Clone the repository- git clone https://github.com/UNICEFAssessment2025/UNICEF-Assessment-2025.git
 
 •	Prerequisites- Install Stata (version 17 or later) with putpdf support.
 
-•	Ensure the four raw data files (GLOBAL\_DATAFLOW\_2018\_ANC4.xlsx, GLOBAL\_DATAFLOW\_SBA.xlsx, WPP2022\_GEN\_F01\_DEMOGRAPHIC\_INDICATORS\_COMPACT\_REV1.xlsx, On-track and off-track countries.xlsx) are in the data/ folder. 
+•	Ensure the four raw data files (GLOBAL\_DATAFLOW\_2018\_ANC4.xlsx, GLOBAL\_DATAFLOW\_SBA.xlsx, WPP2022\_GEN\_F01\_DEMOGRAPHIC\_INDICATORS\_COMPACT\_REV1.xlsx, On-track and off-track countries.xlsx) are in the data/ folder.
 
-•	Set Working Directory- Edit user\_profile.do to set the working directory to the local repository path 
+•	Set Working Directory- Edit user\_profile.do to set the working directory to the local repository path
 
 •	Run the Analysis- Execute the main script in Stata
 
@@ -78,5 +78,13 @@ Notes
 
 
 
+&nbsp;
 
+Positions Applied for -
+
+Learning and Skills Data Analyst Consultant – Req. #581598
+
+Household Survey Data Analyst Consultant – Req. #581656
+
+Microdata Harmonization Consultant – Req. #581699
 

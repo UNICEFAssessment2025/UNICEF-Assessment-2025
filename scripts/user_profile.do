@@ -1,5 +1,5 @@
-			
-			
+
+
 			/**********************************************************************
 			*  user_profile.do
 			*  Purpose: Configure Stata environment for reproducible analysis
@@ -20,8 +20,7 @@
 			*-------------------------------
 			* 3. Set working directory
 			*-------------------------------
-			* Update to local repository path
-			cd "C:\Users\<USER_NAME>\UNICEF-Assessment-2025"
+			* cd "C:\path\to\UNICEF-Assessment-2025" /* Update path */
 
 			*-------------------------------
 			* 4. Set graphics and output preferences

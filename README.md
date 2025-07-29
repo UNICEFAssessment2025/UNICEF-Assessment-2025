@@ -2,6 +2,8 @@
 
 
 
+UNICEF Assessment 2025
+
 This repository contains the code and data for the UNICEF assessment to analyze population-weighted coverage of at least four antenatal care visits (ANC4) and skilled birth attendance (SBA) by under-five mortality rate (U5MR) status for 2022, using projected births as weights.
 
 Repository Structure
@@ -24,17 +26,15 @@ data/: Stores raw, cleaned, and intermediate files.
 
 •	status\_cleaned.dta- Cleaned U5MR status dataset with binary on\_track.
 
-•	temp\_merged.dta- Intermediate merged dataset.
-
 •	merged\_data.dta- Final merged dataset with ANC4, SBA, births\_2022, and on\_track.
 
 •	weighted\_coverage.dta- Population-weighted ANC4 and SBA averages by on\_track.
 
 output/: Stores output files.
 
-•	coverage\_comparison.png- Bar chart for report.
+•	report.pdf- Final report with visualizations comparing ANC4 and SBA coverage for on-track vs. off-track countries and an interpretation paragraph with caveats.
 
-•	coverage\_report.pdf- Final PDF report.
+•	visualization.png- Visualization comparing population-weighted ANC4 and SBA coverage by on-track/off-track status.
 
 scripts/: Contains Stata scripts for the workflow.
 
@@ -48,21 +48,19 @@ documentation/: Documentation files.
 
 Reproduction Instructions
 
-•	Clone the repository- git clone https://github.com/your-username/UNICEF-Assessment-2025.git
+•	Clone the repository- git clone https://github.com/UNICEFAssessment2025/UNICEF-Assessment-2025.git
 
-•	Install Stata (version 16 or later) with putpdf support.
+•	Prerequisites- Install Stata (version 17 or later) with putpdf support.
 
-•	Place the four raw data files in data/.
+•	Ensure the four raw data files (GLOBAL\_DATAFLOW\_2018\_ANC4.xlsx, GLOBAL\_DATAFLOW\_SBA.xlsx, WPP2022\_GEN\_F01\_DEMOGRAPHIC\_INDICATORS\_COMPACT\_REV1.xlsx, On-track and off-track countries.xlsx) are in the data/ folder.
 
-•	Update scripts/user\_profile.do with your local path (e.g., cd "C:\\Users\\Username\\UNICEF-Assessment-2025").
+•	Set Working Directory- Edit user\_profile.do to set the working directory to the local repository path
 
-•	Run in Stata:
+•	Run the Analysis- Execute the main script in Stata
 
-•	do "scripts/run\_project.do"
+do scripts/run\_project.do
 
-•	shell start output/coverage\_report.pdf
-
-•	Verify output- Check output/coverage\_report.pdf for the bar chart and interpretive paragraph.
+This runs the entire workflow, producing report.pdf and visualization.png in the output/ folder.
 
 Workflow Steps
 
@@ -74,13 +72,21 @@ Workflow Steps
 
 Notes
 
-•	Ensure raw data files are in data/ before running the script.
+•	Only countries with complete data for ANC4, SBA, 2022 births, and under-five mortality status are included to ensure accurate population-weighted averages.
 
-•	If merge issues occur, check tab \_merge outputs in run\_project.do for non-matching countries.
+•	The report.pdf includes a visualization (also saved as visualization.png) and a paragraph interpreting results with caveats about data limitations.
 
-•	The final report is saved as output/coverage\_report.pdf.
+&nbsp;
 
 
 
- 
+Positions Applied for -
+
+Learning and Skills Data Analyst Consultant – Req. #581598
+
+Household Survey Data Analyst Consultant – Req. #581656
+
+Microdata Harmonization Consultant – Req. #581699
+
+
 
