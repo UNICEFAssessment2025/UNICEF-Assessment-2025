@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\Aaisha\ASU Dropbox\Jaweriah Hazrana\Github\UNICEF-Assessment-2025\documentation/setu
+> p.log
+  log type:  text
+ opened on:  28 Jul 2025, 08:20:23
+
+.                 * Display environment details
+.                 di "Stata version: $S_STATA"
+Stata version: 
+
+.                 di "Date: $S_DATE"
+Date: 28 Jul 2025
+
+.                 log close
+      name:  <unnamed>
+       log:  C:\Users\Aaisha\ASU Dropbox\Jaweriah Hazrana\Github\UNICEF-Assessment-2025\documentation/setu
+> p.log
+  log type:  text
+ closed on:  28 Jul 2025, 08:20:23
+----------------------------------------------------------------------------------------------------------

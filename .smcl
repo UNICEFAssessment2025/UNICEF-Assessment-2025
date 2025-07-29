@@ -1,0 +1,47 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\Aaisha\ASU Dropbox\Jaweriah Hazrana\Github\UNICEF-Assessment-2025\.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}28 Jul 2025, 22:59:19
+{txt}
+{com}. documentation/merge_log.txt", text replace
+{err}command {bf}documentation{sf} is unrecognized
+{txt}{search r(199), local:r(199);}
+
+end of do-file
+
+{search r(199), local:r(199);}
+
+{com}. do "C:\Users\Aaisha\AppData\Local\Temp\STD2374_000000.tmp"
+{txt}
+{com}.                 log using "C:\Users\Aaisha\ASU Dropbox\Jaweriah Hazrana\Github\UNICEF-Assessment-2025\documentation/merge_log.txt", text replace
+{err}log file already open
+{txt}{search r(604), local:r(604);}
+
+end of do-file
+
+{search r(604), local:r(604);}
+
+{com}. clear
+
+. do "C:\Users\Aaisha\AppData\Local\Temp\STD2374_000000.tmp"
+{txt}
+{com}.                 log using "C:\Users\Aaisha\ASU Dropbox\Jaweriah Hazrana\Github\UNICEF-Assessment-2025\documentation/merge_log.txt", text replace
+{err}log file already open
+{txt}{search r(604), local:r(604);}
+
+end of do-file
+
+{search r(604), local:r(604);}
+
+{com}. do "C:\Users\Aaisha\AppData\Local\Temp\STD2374_000000.tmp"
+{txt}
+{com}.                 log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\Aaisha\ASU Dropbox\Jaweriah Hazrana\Github\UNICEF-Assessment-2025\.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}28 Jul 2025, 22:59:43
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
